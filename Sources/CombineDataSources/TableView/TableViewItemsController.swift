@@ -72,6 +72,7 @@ public class TableViewItemsController<CollectionType>: NSObject, UITableViewData
     // Initial collection
     if collection == nil, animated {
       tableView.beginUpdates()
+      tableView.deleteSections(IndexSet(integersIn: 0...0), with: rowAnimations.delete)
       tableView.insertSections(IndexSet(integersIn: 0..<items.count), with: rowAnimations.insert)
       for sectionIndex in 0..<items.count {
         let rowAtIndex = fromRow(sectionIndex)

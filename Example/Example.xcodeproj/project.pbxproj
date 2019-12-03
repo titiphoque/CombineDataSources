@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334C3ACA2396558500D64EA2 /* CombineDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 334C3AC92396558500D64EA2 /* CombineDataSources */; };
 		9C326989230B2DDE00E93F9C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C326988230B2DDE00E93F9C /* CollectionViewController.swift */; };
 		9C371EE7230356CE00617B57 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C371EE6230356CE00617B57 /* MenuTableViewController.swift */; };
 		9C7E190B2313E02D00518E33 /* CustomBatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E190A2313E02D00518E33 /* CustomBatchesViewController.swift */; };
@@ -19,7 +20,6 @@
 		9CB630D122FD510000368A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB630CF22FD510000368A0D /* Main.storyboard */; };
 		9CB630D322FD510100368A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB630D222FD510100368A0D /* Assets.xcassets */; };
 		9CB630D622FD510100368A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB630D422FD510100368A0D /* LaunchScreen.storyboard */; };
-		9CDF130622FD593000397C16 /* CombineDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 9CDF130522FD593000397C16 /* CombineDataSources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDF130622FD593000397C16 /* CombineDataSources in Frameworks */,
+				334C3ACA2396558500D64EA2 /* CombineDataSources in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +123,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				9CDF130522FD593000397C16 /* CombineDataSources */,
+				334C3AC92396558500D64EA2 /* CombineDataSources */,
 			);
 			productName = Example;
 			productReference = 9CB630C622FD510000368A0D /* Example.app */;
@@ -254,6 +254,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -314,6 +315,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -393,11 +395,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9CDF130222FD592B00397C16 /* CombineDataSources */ = {
+		334C3AC92396558500D64EA2 /* CombineDataSources */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CombineDataSources;
 		};
-		9CDF130522FD593000397C16 /* CombineDataSources */ = {
+		9CDF130222FD592B00397C16 /* CombineDataSources */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CombineDataSources;
 		};
